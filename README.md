@@ -13,7 +13,7 @@
 	When you navigate to localhost:3000, you'll see the message "You got me!" displayed on the page - but if you look at `public/index.html`, you'll see that that message is not written into the HTML - it came from the server!  Here's how it works...</br>
 	<ol>
 		<li>
-			You navigate to http://localhost:3000. When the page loades, the script in the tags at the bottom is triggered by the `$(document).ready(function()...` call.
+			You navigate to http://localhost:3000. When the page loads, the script in the tags at the bottom is triggered by the `$(document).ready(function()...` call.
 		</li>
 		<li>
 			Inside the `ready` function, the first line begins `$.get('/target'...`
