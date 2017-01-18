@@ -1,0 +1,14 @@
+{
+  "name": "ajax-demo",
+  "version": "1.0.0",
+  "description": "A basic NodeJS/Express app that demonstrates an AJAX call.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darren Klein",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

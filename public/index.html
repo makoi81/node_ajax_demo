@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<title>NodeJS/AJAX Demo</title>
+</head>
+<body>
+	<h1>NodeJS/AJAX Demo</h1>
+	<div id="container"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$.get('/target', function(response){
+				$("#container").text(response.message);
+			});
+		});
+	</script>
+</body>
+</html>
