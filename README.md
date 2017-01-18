@@ -19,7 +19,7 @@
 			Inside the `ready` function, the first line begins `$.get('/target'...`
 		</li>
 		<li>
-			This means "send a 'get' request to the server (index.js), pointing at the `/target` route.
+			This means "send a 'get' request to the server (index.js), pointing at the `/target` route".
 		</li>
 		<li>Here's what the relevant piece of index.js looks like:
 			<pre>
@@ -30,7 +30,7 @@
 			This basically says "when a 'get' request comes in for the route `/target`, fire off the callback function".
 		</li>
 		<li>
-			The callback function sends (responds) to the client with JSON data - in this case, a message with the text "You got me!". Now, look back to the client side (index.html)...
+			The callback function responds to the client with JSON data - in this case, a message with the text "You got me!". Now, look back to the client side (index.html)...
 		</li>
 		<li>
 			Here's the entire script:
